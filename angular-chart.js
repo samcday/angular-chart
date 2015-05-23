@@ -493,10 +493,7 @@
             }
 
             if (scope.options.extra) {
-              angular.extend(
-                scope.configuration,
-                scope.options.extra
-              );
+              scope.options.extra(scope.options);
             }
 
             // Remove onresize listeners of the old chart
