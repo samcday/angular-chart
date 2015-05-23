@@ -1,6 +1,6 @@
 {
   "name": "@samcday/angular-chart",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "C3-based reusable chart directive",
   "main": "angular-chart.js",
   "scripts": {
