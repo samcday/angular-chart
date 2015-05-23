@@ -492,6 +492,13 @@
               scope.configuration.donut = scope.options.donut;
             }
 
+            if (scope.options.extra) {
+              angular.extend(
+                scope.configuration,
+                scope.options.extra
+              );
+            }
+
             // Remove onresize listeners of the old chart
             //
             window.onresize = null;
